@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <style>
+    @import url(https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap);
+
+    @import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+
+    html {
+      margin: 0;
+      padding: 0px 40px;
+    }
+    body {
+      font-family: "Nunito Sans", sans-serif;
+    }
+
+    .get-start-btn {
+      border: 1px #ec4848 solid;
+      background-color: #ec4848;
+      color: white;
+      cursor: pointer;
+      box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.2);
+      font-family: "Nunito Sans", sans-serif;
+    }
+  </style>
+
+  <body style="overflow-x: hidden">
+    <nav
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20%;
+
+        height: 110px;
+      "
+    >
+      <div
+        style="
+          font-family: 'Lexend Giga', sans-serif;
+
+          font-weight: bolder;
+          font-size: x-large;
+        "
+      >
+        <p class="companyText">
+          C<span style="font-size: small" class="smallCompanyText">ome</span>
+          O<span style="font-size: small" class="smallCompanyText">on</span>
+          K<span style="font-size: small" class="smallCompanyText">abila</span>
+        </p>
+      </div>
+
+      <img src="burger.png" alt="" class="burgerMenu" />
+
+      <div class="nav-links">
+        <p>Home</p>
+        <p>Track</p>
+        <p>Plans</p>
+      </div>
+    </nav>
+
+    <div style="padding-top: 30px">
+      <!-- <div
+        class="red-diamond"
+       
+      ></div> -->
+
+      <div
+        class="hero-section"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-bottom: 50px;
+          z-index: 10;
+        "
+      >
+        <div>
+          <p class="heroText">
+            It's not about the destination, It's about the
+            <span style="color: #ec4848">journey. </span>
+          </p>
+          <p class="heroDesc">
+            Are you ready to transform your life and embark on a journey to a
+            healthier, fitter you?
+          </p>
+        </div>
+
+        <div style="height: 50px"></div>
+
+        <img src="fitness4.png" alt="" style="z-index: 30" class="heroPic" />
+      </div>
+
+      <div style="display: flex; justify-content: center">
+        <button
+          class="get-start-btn"
+          style="padding: 20px 40px; border-radius: 10px; letter-spacing: 0.2px"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin-top: 60px">
+        <img src="down.png" alt="" style="height: 40px; width: 40px" />
+      </div>
+    </div>
+
+    <div class="feature-section">
+      <div>
+        <img src="nutrition-tracker-icon.png" alt="Nutrition Tracker Icon" />
+        <h2>Nutrition Tracker</h2>
+        <p>
+          Our nutritionists will help you analyze your diet and suggest
+          improvements based on your goals and preferences.
+        </p>
+      </div>
+      <div>
+        <img src="avatar-icon.png" alt="Avatar Icon" />
+        <h2>Personalized Avatar</h2>
+        <p>
+          Embark on your fitness journey with a personalized avatar that evolves
+          as you progress through your exercises and achievements.
+        </p>
+      </div>
+      <div>
+        <img src="fitness-plan-icon.png" alt="Fitness Plan Icon" />
+        <h2>Personalized Fitness Plans</h2>
+        <p>
+          Receive expertly crafted fitness plans tailored to your goals, fitness
+          level, and lifestyle, ensuring optimal results and sustainability.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
